@@ -1,4 +1,4 @@
-let username = "John";
+let username = "Sarah";
 let myDate = new Date().toLocaleDateString();
 
 export default function Greeting() {
