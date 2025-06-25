@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Joti One", serif;
+    font-family: "LXGW Marker Gothic", sans-serif;
 }
 
 .joti-one-regular {
@@ -15,18 +15,19 @@ body {
     height: 100vh;
     background: url(assets/clouds.jpg) no-repeat center center/ cover;
     display: flex;
-    justify-content: center;
 }
 
 h1 {
+  width: 100%;
   font-size: 4rem;
   margin: 20px;
-  text-align: justify;
+  justify-content: center;
+
 }
 
 h3 {
-  font-size: 2rem;
-  margin: 10px;
+  font-size: 1.7rem;
+  margin: 15px;
 
 }
 
@@ -34,7 +35,16 @@ ul {
   margin: 10px;
   padding: auto;
   font-size: 1.2rem;
-  list-style: square inside;
+  list-style: none;
   line-height: 1.5;
 
+}
+
+li {
+
+}
+
+span {
+  margin: 10px;
+  font-size: 23px;
 }

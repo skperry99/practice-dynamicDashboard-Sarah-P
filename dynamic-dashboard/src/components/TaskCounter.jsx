@@ -1,4 +1,4 @@
-import { myTasks } from "./task-list";
+import { myTasks } from "../data/task-list";
 
 export default function TaskCounter() {
   let taskCount = 0;
@@ -10,9 +10,10 @@ export default function TaskCounter() {
     task.completed ? completedCount++ : notCompletedCount++;
   });
 
-  return(
+  return (
     <div>
-      Total tasks: {taskCount} Tasks completed: {completedCount} Tasks remaining: {notCompletedCount}
+      Total tasks: {taskCount} Tasks completed: {completedCount} Tasks
+      remaining: {notCompletedCount}
     </div>
-  )
+  );
 }
