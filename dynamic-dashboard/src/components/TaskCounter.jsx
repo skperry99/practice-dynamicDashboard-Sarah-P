@@ -11,9 +11,12 @@ export default function TaskCounter() {
   });
 
   return (
-    <div>
+    <>
+    <div id="counts">
       Total tasks: {taskCount} Tasks completed: {completedCount} Tasks
       remaining: {notCompletedCount}
     </div>
+    <div id="message">{completedCount === taskCount ? "Way to go!" : "Let's get to work!"}</div>
+    </>
   );
 }

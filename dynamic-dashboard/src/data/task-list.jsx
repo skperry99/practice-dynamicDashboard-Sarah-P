@@ -36,7 +36,7 @@ export const myTasks = [
   },
   {
     id: 8,
-    name: "Run for president",
+    name: "Become president",
     completed: false,
   },
   {

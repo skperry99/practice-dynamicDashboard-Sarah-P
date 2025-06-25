@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "LXGW Marker Gothic", sans-serif;
+    color: darkblue;
 }
 
 .joti-one-regular {
@@ -20,7 +21,7 @@ body {
 h1 {
   width: 100%;
   font-size: 4rem;
-  margin: 20px;
+  margin: 30px;
   justify-content: center;
 
 }
@@ -40,11 +41,22 @@ ul {
 
 }
 
-li {
-
-}
-
 span {
   margin: 10px;
   font-size: 23px;
+}
+
+.done {
+  color: green;
+  font-weight: bold;
+}
+
+.nope {
+  color: red;
+}
+
+#message {
+  font-size: 2rem;
+  margin: 30px;
+  text-align: center;
 }
